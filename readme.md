@@ -37,6 +37,12 @@ export const GET = route({
     return ["New York", "Tokio", "Barcelona"];
   },
 });
+
+export const POST = route({
+  async handler(request) {
+    return "This is a post method";
+  },
+});
 ```
 
 ## Define Route With Param
